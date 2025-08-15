@@ -1,3 +1,11 @@
+/*      EDL markers for streamer.bot https://github.com/razvii22/streamerbot-EDL-markers made by Razvii22(https://www.twitch.tv/razvii22)
+        Requires 2 OBS raw subactions(Get Recording Status and Get Recording Directory) with the "obs" prefix.
+        Can be triggered by a command, from OBS starting, or from a deck.
+        Import string will be found in the releases/tags section at https://github.com/razvii22/streamerbot-EDL-markers/tags
+
+        This system currently requires a secondary action that triggers on OBS recording started events, that updates a global "LastRecPath" variable, without this, the script will default to putting EDL files in your recording directory.
+        If you imported this from the import string, you don't need to worry about it.
+*/
 using System;
 using System.IO;
 using System.Runtime.InteropServices;
